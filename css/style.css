@@ -1,0 +1,56 @@
+body {
+    background: lightgray;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+h6 {
+    color: #4e555b;
+}
+
+span {
+    color: #4e555b;
+}
+
+.vl {
+border-left: 3px solid black;
+height: 40px;
+}
+
+#settings {
+-webkit-transition: -webkit-transform .8s ease-in-out;
+-ms-transition: -ms-transform .8s ease-in-out;
+transition: transform .8s ease-in-out;
+}
+#settings:hover {
+transform:rotate(180deg);
+-ms-transform:rotate(150deg);
+-webkit-transform:rotate(150deg);
+}
+
+.instanav {
+box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.nav-pills .nav-link.active {
+background-color: lightgray;
+transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.nav-pills .nav-link:hover {
+box-shadow: 0 14px 28px rgba(0,0,0,0.20), 0 4px 5px rgba(0,0,0,0.22);
+}
+
+.card-img-top {
+margin-top: auto; !important;
+margin-bottom: auto; !important;
+}
+
+.card {
+margin-bottom: 2%; !important;
+}
